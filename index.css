@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;1,200&display=swap');
+
+body{
+    margin: 0px;
+    font-family: 'Jost', sans-serif;
+}
+
+.container{
+    display: flex;
+    /*border: 2px solid green;*/
+    max-width: 1120px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    margin-top: 10px;
+    /*background-color: red;*/
+    height: 32px;
+}
+
+nav{
+    /*background-color: aqua;*/
+    width: 300px;
+    display: flex;
+    height: 100%;
+    justify-content: start;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+header .container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero{
+    height: 40vh;
+    margin: 100px 0px;
+}
+
+span#nome{
+    font-size: 1.5em;
+}
+
+.hero .container{
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.hero img{
+    width: 200px;
+    height: 200px;
+}
+
+ul{
+   list-style: none;
+   margin: 0px;
+   padding: 0px;
+}
+
+li{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 1.2em;
+    /*background-color: blue;*/
+    padding: 6px 10px;
+}
+
+li:hover{
+    background-image: linear-gradient(to right, rgb(238, 238, 238), rgb(218, 218, 218));
+    cursor: pointer;
+}
+
+img{
+    border-radius: 3px;
+}
+
+a.view{
+    color: rgb(255, 71, 101);
+}
+
+
+.projects .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 5px;
+    gap: 20px 15px;
+
+}
+
+.titulo{
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.botao{
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+}
+
+
+
+.botao a{
+    padding: 10px 20px;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+    color: red;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.botao a:active{
+    box-shadow: 1px 1px black;
+    transform: translateY(2px);  
+}
+
+.botao a:hover{
+    background-image: linear-gradient(to right, rgb(238, 238, 238), rgb(218, 218, 218));
+}
+
+.titulo h1, .titulo h2{
+    margin: 0px;
+    margin-top: 20px;
+    text-transform: uppercase;
+
+}
+
+.titulo h2{
+    font-size: 1em;
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 250px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.tresd{
+    width: 300px;
+    height: 200px;
+    cursor:default;
+}
+
+
+.card img{
+    width: 100%;
+    height: 150px;
+}
+
+.tresd img{
+    width: 100%;
+    height: 100%;
+    cursor:default;
+}
+
+
+.card:hover{
+    transform: scale(105%);
+    cursor: pointer;
+}
+
+.tresd:hover{
+    transform: scale(100%);
+}
+
+.card h1, .card p{
+    margin: 10px 0px;
+}
+
+.card h1{
+    font-size: 1.2em;
+}
+
+.card p{
+    padding: 0px 10px;
+}
+
+footer{
+    height: 20vh;
+}
+
+@media screen and (max-width: 1300px){
+    .container{
+        width: 80vw;
+    }
+}
