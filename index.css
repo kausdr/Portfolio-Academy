@@ -200,3 +200,22 @@ footer{
         width: 80vw;
     }
 }
+
+@media screen and (max-width: 700px){
+    .hero .container{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .hero{
+        height: 60vh;
+    }
+
+    .descricao h1{
+        text-align: center;
+    }
+
+    .projects .container{
+        column-gap:0px;
+    }
+}
