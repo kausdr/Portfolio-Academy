@@ -56,7 +56,7 @@ span#nome{
 }
 
 span#typing{
-    color: red;
+    color: rgb(253, 19, 19);
 }
 
 span#typing::after{
