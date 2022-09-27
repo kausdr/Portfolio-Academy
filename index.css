@@ -3,6 +3,8 @@
 body{
     margin: 0px;
     font-family: 'Jost', sans-serif;
+    background-color: #fdfdfd;
+
 }
 
 .container{
@@ -15,7 +17,7 @@ body{
 
 a{
     text-decoration: none;
-    color: black;
+    color: #02244a;
 }
 
 header{
@@ -44,11 +46,46 @@ header .container{
 
 .hero{
     height: 40vh;
-    margin: 100px 0px;
+    padding: 100px 0px;
+    background-color: #02244a;
 }
 
 .descricao{
     width: 300px;
+}
+
+.descricao a{
+    color: white;
+}
+
+.fa-brands{
+    font-size: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.fa-square-github{
+    color:#e1bdff;
+}
+
+.fa-square-github:hover{
+    color:#b65ffd;
+}
+
+.fa-square-behance{
+    color:#bdf2ff;
+}
+
+.fa-square-behance:hover{
+    color:#5fdfff;
+}
+
+.fa-itch-io{
+    color:#ffaeb5;
+}
+
+.fa-itch-io:hover{
+    color:#ff5362;
 }
 
 span#nome{
@@ -56,12 +93,15 @@ span#nome{
 }
 
 span#typing{
-    color: rgb(253, 19, 19);
+    color: rgb(253, 132, 19);
 }
 
 span#typing::after{
     content:'|';
-    color: black;
+    color: white;
+}
+.hero{
+    color: white;
 }
 
 .hero .container{
@@ -99,7 +139,7 @@ img{
 }
 
 a.view{
-    color: rgb(255, 71, 101);
+    color: rgb(253, 85, 19);
 }
 
 
@@ -110,8 +150,10 @@ a.view{
     justify-content: center;
     column-gap: 5px;
     gap: 20px 15px;
-
+    border-bottom: 3px solid #02244a;
+    padding: 50px 0px;
 }
+
 
 .titulo{
     width: 100%;
@@ -129,11 +171,12 @@ a.view{
 
 .botao a{
     padding: 10px 20px;
-    border: 2px solid black;
-    box-shadow: 3px 3px black;
-    color: red;
+    border: 2px solid #02244a;
+    box-shadow: 3px 3px #02244a;
+    color: rgb(253, 132, 19);
     text-decoration: none;
     display: inline-block;
+    background-color: white;
 }
 
 .botao a:active{
@@ -148,7 +191,9 @@ a.view{
 .titulo h1, .titulo h2{
     margin: 0px;
     margin-top: 20px;
+    margin-bottom: 20px;
     text-transform: uppercase;
+    color: #02244a;
 
 }
 
@@ -157,11 +202,12 @@ a.view{
 }
 
 .card{
-    border: 2px solid black;
+    border: 2px solid #02244a;
     border-radius: 5px;
     width: 250px;
     text-align: center;
     transition: 0.5s;
+    background-color: white;
 }
 
 .tresd{
@@ -197,7 +243,7 @@ a.view{
 }
 
 .card h1{
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 .card p{
@@ -227,7 +273,12 @@ footer{
 
     .descricao h1{
         text-align: center;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
+    }
+
+    .descricao{
+        text-align: center;
+        margin-bottom: 40px;
     }
 
     .descricao h1 div{
